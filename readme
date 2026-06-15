@@ -1,0 +1,17 @@
+# ❤️ Tensi Cinta - Aplikasi Skrining Tekanan Darah
+
+Aplikasi berbasis web menggunakan **Streamlit** untuk melakukan klasifikasi tekanan darah berdasarkan standar medis, dengan fitur khusus pemantauan risiko preeklamsia pada ibu hamil dan integrasi laporan ke WhatsApp.
+
+## 🚀 Fitur Utama
+* **Akses Keamanan:** Login sederhana untuk petugas kesehatan (KIA).
+* **Klasifikasi Otomatis:** Deteksi normal, elevated, hipertensi, hingga krisis hipertensi.
+* **Skrining Khusus Ibu Hamil:** Input data tambahan jika terdeteksi hipertensi dalam kehamilan (Proteinuria, Edema, Usia Kehamilan).
+* **Kalkulator MAP:** Menghitung *Mean Arterial Pressure* secara otomatis.
+* **Integrasi WhatsApp:** Berbagi hasil skrining langsung ke WhatsApp pasien atau rujukan dalam satu klik.
+
+## 📦 Cara Menjalankan Secara Lokal
+
+1. **Clone Repositori ini:**
+   ```bash
+   git clone [https://github.com/USERNAME_ANDA/tensi-cinta.git](https://github.com/USERNAME_ANDA/tensi-cinta.git)
+   cd tensi-cinta
